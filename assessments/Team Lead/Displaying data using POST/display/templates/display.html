@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Your Details
+{% endblock %}
+
+{% block main %}
+    <div class="form-div">
+        <div class="inner">
+            <table>
+                <th colspan="2">
+                    Your Details
+                </th>
+                <tr>
+                    <td>Name</td>
+                    <td><strong>{{ name }}</strong></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><strong>{{ email }}</strong></td>
+                </tr>
+                <tr>
+                    <td>Phone Number</td>
+                    <td><strong>{{ phone }}</strong></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+{% endblock %}

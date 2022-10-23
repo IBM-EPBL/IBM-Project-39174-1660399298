@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+    <div class="form-div">
+        <h3>Enter your details</h3>
+        <div>
+            <form action="" method="post">
+                <label>Name</label> <br>
+                <input type="text" placeholder="Enter your Name" name="name"/> <br>
+
+                <label>Email</label> <br>
+                <input type="text" placeholder="Enter your email" name="email"/> <br>
+
+                <label>Phone Number</label> <br>
+                <input type="number" placeholder="Enter your phone number" name="phone"/> <br>
+
+                <button class="enter">Enter</button>
+            </form>
+        </div>
+    </div>
+{% endblock %}

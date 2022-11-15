@@ -1,1 +1,1 @@
-                                                         Inventory Management System for Retailers
+                                             Inventory Management System for Retailers
